@@ -64,133 +64,146 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Machine Learning Portfolio by Barirah Zainal Abidin</h1>
-    </header>
+   <header>
+    <h1>Machine Learning Portfolio by Barirah Zainal Abidin</h1>
+</header>
 
-    <main>
-        <h2>About Me</h2>
-        <p>My name is Barirah Zainal Abidin, and I am from Malaysia. Currently, I am a Machine Learning Practitioner on Kaggle, but my journey to this point has been anything but straightforward. It began in 2016 when I embarked on my entrepreneurial path, managing five different businesses. My ventures included selling perfumes and scarves, as well as dealing in wholesale products sourced from Alibaba and local suppliers. For me, business was more than just a way to make money, it was a passion. I enjoy researching market trends, experimenting with innovative ideas, and discovering what strategies work best. With 7 years of experience in advertising and collaborative marketing, I have successfully worked with influencers and artists in Malaysia, developing my skills in effective product promotions.</p>
+<main>
+    <h2>About Me</h2>
+    <p>My name is Barirah Zainal Abidin, and I am from Malaysia. Currently, I am a Machine Learning Practitioner on Kaggle, but my journey to this point has been anything but straightforward. It began in 2016 when I embarked on my entrepreneurial path, managing five different businesses. My ventures included selling perfumes and scarves, as well as dealing in wholesale products sourced from Alibaba and local suppliers. For me, business was more than just a way to make money, it was a passion. I enjoy researching market trends, experimenting with innovative ideas, and discovering what strategies work best. With 7 years of experience in advertising and collaborative marketing, I have successfully worked with influencers and artists in Malaysia, developing my skills in effective product promotions.</p>
 
-        <h2>My Journey in Machine Learning</h2>
+    <h2>My Journey in Machine Learning</h2>
+    <p>This portfolio showcases a collection of notebooks I have developed for data analysis and the exploration of machine learning algorithms and pipelines.</p>
 
-        <p>This portfolio showcases a collection of notebooks I have developed for data analysis and the exploration of machine learning algorithms and pipelines.</p>
+    <h2>Kaggle Competitions</h2>
+    <p>Here are some of the Kaggle competitions I have participated in:</p>
 
-        <h2>Kaggle Competitions</h2>
-        <p>Here are some of the Kaggle competitions I have participated in:</p>
+    <h2>Time Series</h2>
+    <ul>
+        <li>✅ Rohlik Orders Forecasting Challenge</li>
+        <p><a href="https://github.com/barirahzainalabidin/Time-Series-Analysis/blob/main/" target="_blank">Rohlik Orders Forecasting Challenge</a></p>
+    </ul>
 
-        <h2>Rohlik Orders Forecasting Challenge</h2>
-        <p>This project involves predicting grocery delivery orders at selected warehouses for the next 60 days using time series methods. In this competition, I achieved a ranking of 512th place. I employed two primary methods:</p>
-        <ul>
-            <li><strong>Random Forest Regression:</strong>
-                <ul>
-                    <li>Filled missing values (numerics with 0 and text data with 'unknown')</li>
-                    <li>Converted 'date' to datetime format</li>
-                    <li>Extracted common date features</li>
-                    <li>Encoded categorical columns</li>
-                    <li>Defined features and target</li>
-                    <li>Split the data into features and target</li>
-                    <li>Split the data into training and testing sets</li>
-                    <li>Trained a RandomForest model</li>
-                    <li>Predicted on the test split</li>
-                    <li>Evaluated the model using MAPE</li>
-                    <li>Predicted on the actual test set</li>
-                </ul>
-            </li>
-            <li><strong>Hidden Markov Models:</strong>
-                <ul>
-                    <li>Transformed data into time series format</li>
-                    <li>Sliced time series data</li>
-                    <li>Operated on time series data</li>
-                    <li>Extracted statistics from time series data</li>
-                    <li>Built Hidden Markov Models for sequential data</li>
-                    <li>Analyzed market data using Hidden Markov Models</li>
-                </ul>
-            </li>
-        </ul>
-        <p>For more details, you can view my notebook solution <a href="https://github.com/barirahzainalabidin/Time-Series-Analysis" target="_blank">here</a>.</p>
-
-        <h2>RSNA 2024 Lumbar Spine Degenerative Classification</h2>
-        <p>This project focuses on creating models to assist in the detection and classification of degenerative spine conditions using lumbar spine MR images through classification methods. In this competition, I achieved a ranking of 1488th place. The primary methods employed included:</p>
-        <ul>
-            <li>Loading files</li>
-            <li>Label encoding</li>
-            <li>Simple imputation</li>
-            <li>Defining feature and target columns</li>
-            <li>Converting to NumPy arrays</li>
-            <li>Splitting the data</li>
-            <li>Training models such as Random Forest</li>
-            <li>Calculating log loss</li>
-            <li>Creating a submission file</li>
-        </ul>
-
-        <h2>ISIC 2024 - Skin Cancer Detection with 3D-TBP</h2>
-        <p>This project involves identifying cancers among skin lesions cropped from 3D total body photographs using classification methods. In this competition, I achieved a ranking of 2466th place. The primary method employed was:</p>
-        <ul>
-            <li>H2O AutoML</li>
-        </ul>
-        <p>To see the project classification, click the link <a href="https://github.com/barirahzainalabidin/Classification/tree/main?tab=readme-ov-file" target="_blank">here</a>.</p>
-
-        <h2>Binary Classification of Insurance Cross Selling</h2>
-        <p>This competition involved predicting which customers would respond positively to an automobile insurance offer using predictive modeling methods. The primary method employed was:</p>
-        <ul>
-            <li>Training a model using H2O AutoML with Gradient Boosting</li>
-        </ul>
-
-        <h2>Learning Agency Lab - Automated Essay Scoring 2.0</h2>
-        <p>This competition focused on training a model to score student essays. I achieved a ranking of 2083rd place. The primary methods employed were:</p>
-        <ul>
-            <li>BERT and DeBERTa models</li>
-            <li>Ensemble techniques</li>
-        </ul>
-
-        <h2>LMSYS - Chatbot Arena Human Preference Predictions</h2>
-        <p>This competition aimed to predict which responses users would prefer in a head-to-head battle between chatbots powered by large language models (LLMs). I achieved a ranking of 1431st place. The methods used included:</p>
-        <ul>
-            <li>LSTM (by Keras)</li>
-            <li>Logistic Regression</li>
-        </ul>
-
-        <h2>Regression of Used Car Prices</h2>
-        <p>This competition aimed to help car buyers, sellers, or dealerships estimate the price of used cars. I achieved a ranking of 1056th place. The primary method employed was:</p>
-        <ul>
-            <li>Training a model using H2O AutoML</li>
-        </ul>
-
-        <h2>Titanic - Machine Learning from Disaster</h2>
-        <p>This competition focused on predicting survival on the Titanic. I achieved a ranking of 35th place. The primary method employed was:</p>
-        <ul>
-            <li>Training a model using H2O AutoML</li>
-        </ul>
-
-        <h2>Eedi - Mining Misconceptions in Mathematics</h2>
-        <p>This competition involved developing an NLP model driven by machine learning to accurately predict the affinity between misconceptions and incorrect answers (distractors) in multiple-choice questions using text data analysis. The primary methods employed included:</p>
-        <ul>
-            <li>Installing the Gensim library</li>
-            <li>Loading files</li>
-            <li>Defining columns</li>
-            <li>Cleaning text except for formulas/formatting mathematics</li>
-            <li>Preprocessing text</li>
-            <li>Encoding categorical columns</li>
-            <li>Visualizing word clouds</li>
-            <li>Counting vocabulary</li>
-            <li>Visualizing most common words</li>
-            <li>Performing LDA topic modeling</li>
-            <li>Creating Bag of Words (BoW) and TF-IDF</li>
-            <li>Creating tokenized vectors</li>
-            <li>K-Means clustering</li>
-            <li>Visualizing K-Means clustering for answers</li>
-            <li>Identifying the most similar questions and answers</li>
-        </ul>
-        <p>For more details, you can view my notebook solution <a href="https://github.com/barirahzainalabidin/Analyze-Text-Data/tree/main" target="_blank">here</a>.</p>
+    <h2>Classification</h2>
+    <ul>
+        <li>✅ RSNA 2024 Lumbar Spine Degenerative Classification</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/my-project-rsna-2024-submission-2" target="_blank">RSNA 2024 Lumbar Spine Degenerative Classification</a></p>
         
-        <h2>My Project Lists</h2>
-        <p>Here are my project collections where I used Machine Learning, Natural Language Processing (NLP), Hugging Face, and OpenAI.</p>
-        <p>Click the link <a href="https://github.com/barirahzainalabidin/My_Project_Lists?tab=readme-ov-file" target="_blank">here</a>.</p>
-    </main>
+        <li>✅ ISIC 2024 - Skin Cancer Detection with 3D-TBP</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/my-project-isic-2024-submission-8-0-120" target="_blank">ISIC 2024 - Skin Cancer Detection with 3D-TBP</a></p>
+    </ul>
 
-    <footer>
-        <p>© 2024 Barirah Zainal Abidin. All rights reserved.</p>
-    </footer>
+    <h2>Predictive Modelling</h2>
+    <ul>
+        <li>✅ Collection Github</li>
+        <p><a href="https://github.com/barirahzainalabidin/Predictive-Modelling" target="_blank">Collection Github</a></p>
+        
+        <li>✅ Binary Classification of Insurance Cross Selling</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/binary-classification-of-insurance" target="_blank">Binary Classification of Insurance Cross Selling</a></p>
+        
+        <li>✅ LMSYS - Chatbot Arena Human Preference Predictions</li>
+        <p><a href="https://github.com/barirahzainalabidin/LMSYS-Chatbot-Arena-Human-Preference/tree/main" target="_blank">LMSYS - Chatbot Arena Human Preference Predictions</a></p>
+        
+        <li>✅ Regression of Used Car Prices</li>
+        <p><a href="https://github.com/barirahzainalabidin/Regression-of-Used-Car-Prices" target="_blank">Regression of Used Car Prices</a></p>
+        
+        <li>✅ Titanic - Machine Learning from Disaster</li>
+        <p><a href="https://github.com/barirahzainalabidin/Titanic-Machine-Learning-from-Disaster" target="_blank">Titanic - Machine Learning from Disaster</a></p>
+    </ul>
+
+    <h2>Clustering</h2>
+    <ul>
+        <li>✅ Jigsaw Rate Severity of Toxic Comments</li>
+        <p><a href="https://github.com/barirahzainalabidin/Jigsaw-Rate-Severity-of-Toxic-Comments" target="_blank">Jigsaw Rate Severity of Toxic Comments</a></p>
+        
+        <li>✅ Inclusion・The Global Multimedia Deepfake Detection</li>
+        <p><a href="https://github.com/barirahzainalabidin/Inclusion-The-Global-Multimedia-Deepfake-Detection/tree/main" target="_blank">Inclusion・The Global Multimedia Deepfake Detection</a></p>
+    </ul>
+
+    <h2>Recommendation System, Feed Ranking, Search Ranking, Click Through Rate</h2>
+    <ul>
+        <li>✅ Home Depot Product Search Relevance</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/home-depot-product-search-recommendation" target="_blank">Home Depot Product Search Relevance</a></p>
+        
+        <li>✅ Learning Equality - Curriculum Recommendations</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/learning-equality-recommendation" target="_blank">Learning Equality - Curriculum Recommendations</a></p>
+    </ul>
+
+    <h2>Predictive Modelling Using BERT Model HuggingFace / Kaggle</h2>
+    <ul>
+        <li>✅ Learning Equality - Curriculum Recommendations</li>
+        <p><a href="https://github.com/barirahzainalabidin/Learning-Equality-Curriculum-Recommendations" target="_blank">Learning Equality - Curriculum Recommendations</a></p>
+        
+        <li>✅ Learning Agency Lab - Automated Essay Scoring 2.0</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/my-learning-agency-lab-subs-8" target="_blank">Learning Agency Lab - Automated Essay Scoring 2.0</a></p>
+    </ul>
+
+    <h2>Predictive Modelling Using DEBERTA Model HuggingFace / Kaggle</h2>
+    <ul>
+        <li>✅ Learning Agency Lab - Automated Essay Scoring 2.0</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/my-project-learning-agency-lab-sub-3" target="_blank">Learning Agency Lab - Automated Essay Scoring 2.0</a></p>
+    </ul>
+
+    <h2>Neural Network</h2>
+    <ul>
+        <li>✅ Jigsaw Rate Severity of Toxic Comments</li>
+        <p><a href="https://github.com/barirahzainalabidin/Jigsaw-Rate-Severity-of-Toxic-Comments/tree/main" target="_blank">Jigsaw Rate Severity of Toxic Comments</a></p>
+        
+        <li>✅ Inclusion・The Global Multimedia Deepfake Detection</li>
+        <p><a href="https://github.com/barirahzainalabidin/Inclusion-The-Global-Multimedia-Deepfake-Detection/tree/main" target="_blank">Inclusion・The Global Multimedia Deepfake Detection</a></p>
+        
+        <li>✅ Home Depot Product Search Relevance</li>
+        <p><a href="https://github.com/barirahzainalabidin/Home-Depot-Product-Search-Relevance" target="_blank">Home Depot Product Search Relevance</a></p>
+    </ul>
+
+    <h2>Analyze Text Data</h2>
+    <ul>
+        <li>✅ Eedi - Mining Misconceptions in Mathematics</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/tutorial-eedi-mining-for-beginner" target="_blank">Eedi - Mining Misconceptions in Mathematics</a></p>
+        
+        <li>✅ Trip Advisor Hotel Reviews</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/trip-advisor-hotel-reviews" target="_blank">Trip Advisor Hotel Reviews</a></p>
+        
+        <li>✅ Child Mind Institute — Problematic Internet Use</li>
+        <p><a href="https://www.kaggle.com/code/barirahzainal/problematic-internet-use-for-beginner" target="_blank">Child Mind Institute — Problematic Internet Use</a></p>
+    </ul>
+
+    <h2>Detection Fraud Modelling</h2>
+
+    <h2>Audio Speech Recognition</h2>
+    <ul>
+        <li>✅ Bird CLEF 2024</li>
+        <p><a href="https://github.com/barirahzainalabidin/BirdCLEF-2024/tree/main" target="_blank">Bird CLEF 2024</a></p>
+        
+        <li>✅ Inclusion・The Global Multimedia Deepfake Detection</li>
+        <p><a href="https://github.com/barirahzainalabidin/Inclusion-The-Global-Multimedia-Deepfake-Detection/tree/main" target="_blank">Inclusion・The Global Multimedia Deepfake Detection</a></p>
+    </ul>
+
+    <h2>Voice / Speech Assistant Open AI & GEMINI AI</h2>
+    <ul>
+        <li>✅ Gemini Text To Speech Assistant</li>
+        <p><a href="https://github.com/barirahzainalabidin/Gemini-Speech-To-Text-Assistant" target="_blank">Gemini Text To Speech Assistant</a></p>
+    </ul>
+
+    <h2>Whispers Open AI</h2>
+    <ul>
+        <li>✅ Arabic Natural Audio Dataset</li>
+        <p><a href="https://github.com/barirahzainalabidin/Arabic-Natural-Audio/tree/main" target="_blank">Arabic Natural Audio Dataset</a></p>
+    </ul>
+
+    <h2>Microsoft Azure AI</h2>
+    <ul>
+        <li>✅ Language Cognitive</li>
+        <p><a href="https://github.com/barirahzainalabidin/Language-Cognitive-Azure" target="_blank">Language Cognitive</a></p>
+    </ul>
+
+    <h2>My Project Lists</h2>
+    <p>Here are my project collections where I used Machine Learning, Natural Language Processing (NLP), Hugging Face, and OpenAI.</p>
+    <p>Click the link <a href="https://github.com/barirahzainalabidin/My_Project_Lists?tab=readme-ov-file" target="_blank">here</a>.</p>
+</main>
+
+<footer>
+    <p>© 2024 Barirah Zainal Abidin. All rights reserved</p>
+</footer>
 </body>
 </html>
